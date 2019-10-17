@@ -1,4 +1,4 @@
-# Manipulacao-de-matrizes
+# Manipulacao de matrizes
 Programa simples para manipulações de matrizes
 
 ## Atenção
