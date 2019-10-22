@@ -13,7 +13,7 @@ def multiplicacao(listaMatrizes):
             if isTamanhosIguais == False:
                 matrizesParaMultiplicacao.remove(index)
             while isTamanhosIguais == False:
-                desejaSelecionarOutra = input(f'Matriz {index} tem tamanhos diferentes das outras matrizes, deseja selecionar outra? [S/N]').upper()
+                desejaSelecionarOutra = input(f'Matriz {index+1} tem tamanhos diferentes das outras matrizes, deseja selecionar outra? [S/N]').upper()
                 if desejaSelecionarOutra == 'S':
                     index = int(input(f'Qual seria a {i+1} matriz para multiplicacao? ')) - 1
                     isTamanhosIguais = validaMatrizes(listaMatrizes, matrizesParaMultiplicacao[0], index)
